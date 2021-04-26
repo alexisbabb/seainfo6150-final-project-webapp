@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home tests renders correctly 1`] = `
+<div>
+  <article
+    class="pageContent"
+  >
+    <header>
+      <p
+        class="pageTitle"
+      >
+        Welcome to the Delaware Humane Association!
+      </p>
+      <img
+        alt="Delaware Humane Association Home"
+        class="pageImage"
+        src="https://delawarehumane.org/wp-content/uploads/2016/06/Front-Bricks.png"
+      />
+      <p
+        class="pageMission"
+      >
+        Founded in 1957, Delaware Humane Association (DHA) is Delaware’s premiere nonprofit no kill animal care and adoption center, serving a four state area. We are committed to providing for the needs of homeless and owned dogs and cats in our community.
+      </p>
+    </header>
+    <div
+      class="pageDetails"
+    >
+      <div>
+        <p>
+          <u>
+            Hours of Operation:
+          </u>
+        </p>
+        <ul>
+          <li>
+            Sunday: 10am-5pm
+          </li>
+          <br />
+          <li>
+            Monday: 9am-5pm
+          </li>
+          <br />
+          <li>
+            Tuesday: 9am-5pm
+          </li>
+          <br />
+          <li>
+            Wednesday: 9am-5pm
+          </li>
+          <br />
+          <li>
+            Thursday: 9am-5pm
+          </li>
+          <br />
+          <li>
+            Friday: 10am-5pm
+          </li>
+          <br />
+          <li>
+            Saturday: 10am-5pm
+          </li>
+          <br />
+        </ul>
+      </div>
+      <div>
+        <p>
+          <u>
+            Contact Information:
+          </u>
+        </p>
+        <ul>
+          <li>
+            Email: info@delawarehumane.org 
+          </li>
+          <br />
+          <li>
+            Phone Number: (302)562-7011 
+          </li>
+          <br />
+          <li>
+            Wilmington Address: 701 A St Wilmington DE 19801
+          </li>
+          <br />
+          <li>
+            Newark Address: 123 S Main St Newark DE 19711
+            <br />
+          </li>
+        </ul>
+      </div>
+    </div>
+  </article>
+</div>
+`;

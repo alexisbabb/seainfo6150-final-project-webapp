@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error tests renders correctly 1`] = `
+<div>
+  <article
+    class="pageContent"
+  >
+    <header
+      class="pageTitle"
+    >
+      <p>
+        Oh No! It looks like this page isn't valid. Sorry about that!
+      </p>
+      <img
+        alt="Error"
+        class="pageImage"
+        src="https://cdn3.volusion.com/euhfr.xvuyx/v/vspfiles/photos/EG1155-1374-2.jpg?v-cache=1325487014"
+      />
+    </header>
+  </article>
+</div>
+`;

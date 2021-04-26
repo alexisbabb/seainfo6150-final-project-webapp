@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PetLists tests renders correctly 1`] = `
+<div>
+  <div>
+    <ul
+      class="container"
+    >
+      <li
+        class="container"
+      >
+        <article
+          class="article"
+        >
+          <header
+            class="header"
+          >
+            <img
+              alt="Aladdin"
+              class="image"
+              src="https://pbs.twimg.com/media/DlmBBTXXcAEdn6V.jpg"
+            />
+            <h2>
+              <a
+                class="link"
+                href="/petlist/00001"
+              >
+                Aladdin
+              </a>
+            </h2>
+          </header>
+          <div
+            class="wrapper"
+          />
+          <button
+            class="detailsButton"
+          >
+            Show more
+          </button>
+        </article>
+      </li>
+      <li
+        class="container"
+      >
+        <article
+          class="article"
+        >
+          <header
+            class="header"
+          >
+            <img
+              alt="Chloe"
+              class="image"
+              src="https://www.fananimal.com/wp-content/uploads/2019/03/fan-animal-los-perros-en-verdad-sienten-celos.jpg"
+            />
+            <h2>
+              <a
+                class="link"
+                href="/petlist/00002"
+              >
+                Chloe
+              </a>
+            </h2>
+          </header>
+          <div
+            class="wrapper"
+          />
+          <button
+            class="detailsButton"
+          >
+            Show more
+          </button>
+        </article>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

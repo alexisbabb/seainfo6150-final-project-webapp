@@ -1,0 +1,338 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PetDetails tests renders correctly 1`] = `
+<div>
+  <div>
+    <a
+      class="back"
+      href="/petlist"
+    >
+      <p>
+        Return to view all pets
+      </p>
+    </a>
+    <article
+      class="article"
+    >
+      <div
+        class="detailsGreeting"
+      >
+        <p>
+          Hi, my name is 
+          <u>
+            Aladdin
+          </u>
+          !
+        </p>
+      </div>
+      <div
+        class="detailsImage"
+      >
+        <img
+          alt="Aladdin"
+          class="image"
+          src="https://pbs.twimg.com/media/DlmBBTXXcAEdn6V.jpg"
+        />
+      </div>
+      <div
+        class="detailsTable"
+      >
+        <div>
+          <table
+            class="table"
+          >
+            <tr>
+              <th>
+                Animal ID
+              </th>
+              <td>
+                00001
+              </td>
+            </tr>
+            <tr>
+              <th>
+                Species
+              </th>
+              <td>
+                Cat
+              </td>
+            </tr>
+            <tr>
+              <th>
+                Breed
+              </th>
+              <td>
+                Domestic Short Hair
+              </td>
+            </tr>
+            <tr>
+              <th>
+                Gender
+              </th>
+              <td>
+                Male
+              </td>
+            </tr>
+            <tr>
+              <th>
+                Age
+              </th>
+              <td>
+                2 Years
+              </td>
+            </tr>
+            <tr>
+              <th>
+                Size
+              </th>
+              <td>
+                Medium
+              </td>
+            </tr>
+            <tr>
+              <th>
+                Color
+              </th>
+              <td>
+                Black
+              </td>
+            </tr>
+            <tr>
+              <th>
+                Location
+              </th>
+              <td>
+                Newark
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div
+        class="detailsBio"
+      >
+        <div>
+          <p>
+            Meet Aladdin! This sweet boy is looking for the perfect lap to relax in! He will follow you everywhere you go just like a dog. He is a very friendly boy that gets along with others cats. He originally came from a large cat colony living outside in lower Delaware. Aladdin is FIV positive, but that doesn't mean he won't live a long, normal life.
+          </p>
+        </div>
+      </div>
+      <div
+        class="detailsForm"
+      >
+        <div>
+          <hr />
+          <h2>
+            Adoption Questionnaire
+          </h2>
+          <form>
+            <label
+              for="myNameId"
+            >
+              Name
+            </label>
+            <br />
+            <input
+              id="myNameId"
+              name="myName"
+              required=""
+              type="text"
+            />
+            <br />
+            <label
+              for="myAgeId"
+            >
+              Age
+            </label>
+            <br />
+            <input
+              id="myAgeId"
+              name="Age"
+              type="number"
+            />
+            <br />
+            <label
+              for="myAddressId"
+            >
+              Street Address
+            </label>
+            <br />
+            <input
+              id="myAddressId"
+              name="myAddress"
+              type="text"
+            />
+            <br />
+            <label
+              for="myCityId"
+            >
+              City
+            </label>
+            <br />
+            <input
+              id="myCityId"
+              name="myCity"
+              type="text"
+            />
+            <br />
+            <label
+              for="myStateId"
+            >
+              State
+            </label>
+            <br />
+            <select
+              id="myStateId"
+              name="myState"
+            >
+              <option
+                value="Delaware"
+              >
+                Delaware
+              </option>
+              <option
+                value="Pennsylvania"
+              >
+                Pennsylvania
+              </option>
+              <option
+                value="New Jersey"
+              >
+                New Jersey
+              </option>
+              <option
+                value="Maryland"
+              >
+                Maryland
+              </option>
+              <option
+                value="Other"
+              >
+                Other
+              </option>
+            </select>
+            <br />
+            <label
+              for="myZipId"
+            >
+              Zip Code
+            </label>
+            <br />
+            <input
+              id="myZipId"
+              name="myZip"
+              type="number"
+            />
+            <br />
+            <label>
+              If selected, which would be the best day to visit?
+            </label>
+            <br />
+            <input
+              id="monday"
+              type="radio"
+              value="Monday"
+            />
+            <label
+              for="monday"
+            >
+              Monday
+            </label>
+            <input
+              id="tuesday"
+              type="radio"
+              value="Tuesday"
+            />
+            <label
+              for="tuesday"
+            >
+              Tuesday
+            </label>
+            <input
+              id="wednesday"
+              type="radio"
+              value="Wednesday"
+            />
+            <label
+              for="wednesday"
+            >
+              Wednesday
+            </label>
+            <input
+              id="thursday"
+              type="radio"
+              value="Thursday"
+            />
+            <label
+              for="thursday"
+            >
+              Thursday
+            </label>
+            <input
+              id="friday"
+              type="radio"
+              value="Friday"
+            />
+            <label
+              for="friday"
+            >
+              Friday
+            </label>
+            <input
+              id="saturday"
+              type="radio"
+              value="Saturday"
+            />
+            <label
+              for="saturday"
+            >
+              Saturday
+            </label>
+            <input
+              id="sunday"
+              type="radio"
+              value="Sunday"
+            />
+            <label
+              for="Sunday"
+            >
+              Sunday
+            </label>
+            <br />
+            <label
+              for="myConfirmationId"
+            >
+              I acknowledge that this application does not yet mean that I have adopted a pet.
+            </label>
+            <select
+              id="myConfirmationId"
+              name="myConfirmation"
+            >
+              <option
+                value="Yes"
+              >
+                Yes
+              </option>
+              <option
+                value="No"
+              >
+                No
+              </option>
+              <option
+                value="Maybe"
+              >
+                Maybe
+              </option>
+            </select>
+            <br />
+            <input
+              type="submit"
+              value="Send it"
+            />
+          </form>
+        </div>
+      </div>
+    </article>
+  </div>
+</div>
+`;

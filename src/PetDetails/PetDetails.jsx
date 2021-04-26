@@ -10,11 +10,11 @@ const PetDetails = (props) => {
   return (
     <div>
       <Link to="/petlist" className={styles.back}>
-        Return to view all pets
+        <p>Return to view all pets</p>
       </Link>
       <article className={styles.article}>
         <div className = {styles.detailsGreeting}>
-          Hi, my name is <u>{props.article.name}</u>!
+          <p>Hi, my name is <u>{props.article.name}</u>!</p>
         </div>
         <div className = {styles.detailsImage}>
           <PetImage

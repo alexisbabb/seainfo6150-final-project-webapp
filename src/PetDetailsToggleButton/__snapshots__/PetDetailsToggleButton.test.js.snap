@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PetDetailsToggleButton tests renders correctly 1`] = `
+<div>
+  <button
+    class="detailsButton"
+  >
+    Show More
+  </button>
+</div>
+`;
