@@ -1,0 +1,39 @@
+.container { 
+    border: 3px solid #b8610f;
+    border-radius: 10%; 
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.5em; 
+    padding-bottom: 1em; 
+  }
+  
+  .article {
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: space-between;
+      height: 100%;
+  }
+  
+  .header {
+      display: flex;
+      flex-flow: row wrap;
+  }
+
+  .link {
+    color: #b8610f;
+    font-family: 'Times New Roman', Times, serif; 
+  }
+  
+  .wrapper {
+      flex: 1;
+      font-size: 1em; 
+      margin: 0 0 1em;
+  }
+
+ 
+  
+
+
+  
+
+
+  

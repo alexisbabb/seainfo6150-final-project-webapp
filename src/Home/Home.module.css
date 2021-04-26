@@ -1,0 +1,40 @@
+.pageContent{
+    background-image: linear-gradient(to bottom, rgba(255, 255, 0, 0.25), rgba(255, 0, 0, 0.25));
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+.pageTitle {
+    font-size: 3em; 
+    font-weight: bold;  
+    text-align: center; 
+    padding: 0.5em;
+    font-family: "Helvetica", sans-serif;  
+}
+
+.pageMission {
+    font-size: 1.25em; 
+}
+
+.pageDetails{
+    font-size: 1.25em;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px; 
+    padding: 1em; 
+}
+
+.pageImage{
+    width: 35%; 
+    border-radius: 10%; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-bottom: 2em;  
+}
+
+@media (min-width: 600px) {
+    .pageDetails {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
